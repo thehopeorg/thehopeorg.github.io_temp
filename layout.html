@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} TheHope.org</title>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="https://ez-css.now.sh">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+  </head>
+
+<style>
+  * {
+    font-family: 'Patua One', cursive;
+  }
+  body {
+    padding-top: 0px;
+  }
+  nav {
+    background-color: #112444;
+
+
+  }
+  nav a {
+    display: inline-block;
+    height: 50px;
+    font-size: 66%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #ffbd30;
+  }
+  nav img {
+    max-width: 100%;
+    height: auto;
+  }
+
+</style>
+
+<body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/regenesis/">Regenesis</a>
+    <img src="/assets/header.jpg" alt="logo">
+  </nav>
+  <h1>{{ page.title }}</h1>
+  <section>
+    {{ content }}
+  </section>
+  <footer>
+    &copy; to me
+  </footer>
+</body>
+
+</html>
